@@ -1,8 +1,8 @@
 package com.example.btl_mnm.managers;
 
-import com.example.necomovie.model.Movie;
-import com.example.necomovie.model.MoviesResponse;
-import com.example.necomovie.model.TrailersResponse;
+import com.example.btl_mnm.model.Movie;
+import com.example.btl_mnm.model.MoviesResponse;
+import com.example.btl_mnm.model.TrailersResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

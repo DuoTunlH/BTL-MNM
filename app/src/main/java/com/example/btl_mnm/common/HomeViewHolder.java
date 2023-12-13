@@ -8,9 +8,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.CategoryActivity;
-import com.example.necomovie.R;
-import com.example.necomovie.model.SectionMovies;
+import com.example.btl_mnm.CategoryActivity;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.SectionMovies;
 
 public class HomeViewHolder extends RecyclerView.ViewHolder {
 

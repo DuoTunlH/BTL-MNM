@@ -1,4 +1,4 @@
-package com.example.btl_mnm;
+package com.example.btl_mnm1;
 
 import org.junit.Test;
 

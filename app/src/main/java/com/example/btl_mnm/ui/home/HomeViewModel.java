@@ -3,10 +3,10 @@ package com.example.btl_mnm.ui.home;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.necomovie.managers.APICaller;
-import com.example.necomovie.model.MoviesResponse;
-import com.example.necomovie.model.SectionMovies;
-import com.example.necomovie.model.Sections;
+import com.example.btl_mnm.managers.APICaller;
+import com.example.btl_mnm.model.MoviesResponse;
+import com.example.btl_mnm.model.SectionMovies;
+import com.example.btl_mnm.model.Sections;
 
 import java.util.ArrayList;
 import java.util.List;

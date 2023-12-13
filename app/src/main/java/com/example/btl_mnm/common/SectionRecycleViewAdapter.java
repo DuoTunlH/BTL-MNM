@@ -8,9 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.necomovie.R;
-import com.example.necomovie.model.Movie;
-
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.Movie;
 import java.util.List;
 
 public class SectionRecycleViewAdapter extends RecyclerView.Adapter<SectionViewHolder> {

@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.R;
-import com.example.necomovie.model.Movie;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.Movie;
 
 import java.util.List;
 

@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.SearchView;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
@@ -19,13 +20,13 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.R;
-import com.example.necomovie.common.GridSpacingItemDecoration;
-import com.example.necomovie.common.MovieRecycleViewAdapter;
-import com.example.necomovie.common.SectionRecycleViewAdapter;
-import com.example.necomovie.common.SpacingItemDecorator;
-import com.example.necomovie.databinding.FragmentSearchBinding;
-import com.example.necomovie.model.Movie;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.common.GridSpacingItemDecoration;
+import com.example.btl_mnm.common.MovieRecycleViewAdapter;
+import com.example.btl_mnm.common.SectionRecycleViewAdapter;
+import com.example.btl_mnm.common.SpacingItemDecorator;
+import com.example.btl_mnm.databinding.FragmentSearchBinding;
+import com.example.btl_mnm.model.Movie;
 
 import java.util.List;
 

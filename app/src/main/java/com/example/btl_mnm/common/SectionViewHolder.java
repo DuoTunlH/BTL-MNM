@@ -8,9 +8,9 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.DetailActivity;
-import com.example.necomovie.R;
-import com.example.necomovie.model.Movie;
+import com.example.btl_mnm.DetailActivity;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.Movie;
 
 public class SectionViewHolder extends RecyclerView.ViewHolder {
     Context context;

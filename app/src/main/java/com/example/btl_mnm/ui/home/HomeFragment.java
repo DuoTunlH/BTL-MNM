@@ -13,11 +13,11 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.R;
-import com.example.necomovie.common.HomeRecycleViewAdapter;
-import com.example.necomovie.common.SpacingItemDecorator;
-import com.example.necomovie.databinding.FragmentHomeBinding;
-import com.example.necomovie.model.SectionMovies;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.common.HomeRecycleViewAdapter;
+import com.example.btl_mnm.common.SpacingItemDecorator;
+import com.example.btl_mnm.databinding.FragmentHomeBinding;
+import com.example.btl_mnm.model.SectionMovies;
 
 import java.util.Collections;
 import java.util.List;

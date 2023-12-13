@@ -7,18 +7,19 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageButton;
 
+import com.bumptech.glide.Glide;
+import com.example.btl_mnm.ui.favourite.FavouriteFragment;
+import com.example.btl_mnm.ui.home.HomeFragment;
+import com.example.btl_mnm.ui.search.SearchFragment;
+import com.google.android.material.appbar.MaterialToolbar;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.bumptech.glide.Glide;
-import com.example.necomovie.databinding.ActivityMainBinding;
-import com.example.necomovie.ui.favourite.FavouriteFragment;
-import com.example.necomovie.ui.home.HomeFragment;
-import com.example.necomovie.ui.search.SearchFragment;
-import com.google.android.material.appbar.MaterialToolbar;
+import com.example.btl_mnm.databinding.ActivityMainBinding;
 import com.google.android.material.navigation.NavigationBarView;
 import com.google.firebase.auth.FirebaseAuth;
 

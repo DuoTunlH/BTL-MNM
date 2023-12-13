@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.R;
-import com.example.necomovie.model.SectionMovies;
-import com.example.necomovie.model.Sections;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.SectionMovies;
+import com.example.btl_mnm.model.Sections;
 
 import java.util.List;
 

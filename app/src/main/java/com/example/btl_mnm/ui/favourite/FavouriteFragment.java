@@ -13,14 +13,18 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.necomovie.R;
-import com.example.necomovie.common.MovieRecycleViewAdapter;
-import com.example.necomovie.common.SpacingItemDecorator;
-import com.example.necomovie.databinding.FragmentFavouriteBinding;
-import com.example.necomovie.model.Movie;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.common.MovieRecycleViewAdapter;
+import com.example.btl_mnm.common.SpacingItemDecorator;
+import com.example.btl_mnm.databinding.FragmentFavouriteBinding;
+import com.example.btl_mnm.model.Movie;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
+import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreException;
+import com.google.firebase.firestore.ListenerRegistration;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.List;
 

@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.necomovie.DetailActivity;
-import com.example.necomovie.R;
-import com.example.necomovie.model.Movie;
+import com.example.btl_mnm.DetailActivity;
+import com.example.btl_mnm.R;
+import com.example.btl_mnm.model.Movie;
 
 public class MovieViewHolder extends RecyclerView.ViewHolder {
     Context context;

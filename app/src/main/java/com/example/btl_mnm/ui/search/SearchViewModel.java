@@ -3,11 +3,11 @@ package com.example.btl_mnm.ui.search;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.example.necomovie.common.Debounce;
-import com.example.necomovie.managers.APICaller;
-import com.example.necomovie.model.Movie;
-import com.example.necomovie.model.MoviesResponse;
-import com.example.necomovie.model.Sections;
+import com.example.btl_mnm.common.Debounce;
+import com.example.btl_mnm.managers.APICaller;
+import com.example.btl_mnm.model.Movie;
+import com.example.btl_mnm.model.MoviesResponse;
+import com.example.btl_mnm.model.Sections;
 
 import java.util.List;
 
